@@ -14,7 +14,7 @@
 
     <header class="bg-success-subtle py-2">
         <a href="#" class="text-decoration-none">Home</a>
-        <a href="#" class="text-decoration-none">Posts</a>
+        <a href="{{ route('post.index') }}" class="text-decoration-none">Posts</a>
     </header>
     <main>
         @yield('app')
