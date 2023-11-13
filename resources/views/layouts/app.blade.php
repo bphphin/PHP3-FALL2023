@@ -16,6 +16,7 @@
         <a href="#" class="text-decoration-none">Home</a>
         <a href="{{ route('post.index') }}" class="text-decoration-none">Posts</a>
         <a href="{{ route('student.index') }}" class="text-decoration-none">Students</a>
+        <a href="{{ route('product.index') }}" class="text-decoration-none">Products</a>
     </header>
     <main>
         @yield('app')
