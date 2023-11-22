@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BrandController;
+use App\Http\Controllers\CarController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProductController;
@@ -25,3 +27,5 @@ Route::resource('post', PostController::class);
 Route::resource('student', StudentController::class);
 Route::resource('product', ProductController::class);
 Route::resource('client', ClientController::class);
+Route::resource('brand', BrandController::class);
+Route::resource('car', CarController::class);
