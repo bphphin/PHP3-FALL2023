@@ -20,6 +20,8 @@
         <a href="{{ route('client.index') }}" class="text-decoration-none">Clients</a>
         <a href="{{ route('brand.index') }}" class="text-decoration-none">Brand</a>
         <a href="{{ route('car.index') }}" class="text-decoration-none">Car</a>
+        <a href="{{ route('airline.index') }}" class="text-decoration-none">Airline</a>
+        <a href="{{ route('flight.index') }}" class="text-decoration-none">Flight</a>
     </header>
     <main>
         @yield('app')
